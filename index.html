@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0">
+<meta name="theme-color" content="#0D0E14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>QRide — Кабинет владельца</title>
+<link rel="manifest" href="manifest.json">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:system-ui,sans-serif;background:#0D0E14;color:#F0F1FF;min-height:100dvh;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:20px;padding:40px 24px;text-align:center}
+.logo{font-size:48px;font-weight:900;background:linear-gradient(135deg,#FF6B35,#F72585,#7B2FF7);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-2px}
+.card{background:#1E2030;border:1px solid rgba(255,255,255,.07);border-radius:20px;padding:28px;max-width:360px;width:100%}
+h2{font-size:20px;font-weight:700;margin-bottom:8px}
+p{font-size:14px;color:#8B8FA8;line-height:1.6}
+.btn{display:block;width:100%;padding:16px;margin-top:16px;background:linear-gradient(135deg,#FF6B35,#F72585);color:#fff;font-size:15px;font-weight:700;border:none;border-radius:12px;cursor:pointer;text-decoration:none}
+</style>
+</head>
+<body>
+<div class="logo">QRide</div>
+<div class="card">
+  <h2>✅ PWA задеплоена!</h2>
+  <p>Приложение успешно загружено на GitHub Pages. Теперь подключите Firebase и загрузите полную версию.</p>
+  <a class="btn" href="https://console.firebase.google.com" target="_blank">Открыть Firebase Console</a>
+</div>
+<script>
+if('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js');
+</script>
+</body>
+</html>

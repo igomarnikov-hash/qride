@@ -1,0 +1,20 @@
+{
+  "name": "QRide — Кабинет владельца",
+  "short_name": "QRide",
+  "description": "Получайте сообщения о вашем автомобиле мгновенно",
+  "start_url": "/qride/",
+  "scope": "/qride/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0D0E14",
+  "theme_color": "#0D0E14",
+  "lang": "ru",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Сообщения", "url": "/qride/?section=messages" },
+    { "name": "QR-код",    "url": "/qride/?section=qr" }
+  ]
+}
